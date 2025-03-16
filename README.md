@@ -1,4 +1,4 @@
-<p align="center"><img src="public/images/logo.png" width="564" alt="Adventure Studio Designer Logo"></p>
+<p align="center"><img src="assets/logo.png" width="564" alt="Adventure Studio Designer Logo"></p>
 
 # About Adventure Studio Designer
 
@@ -10,11 +10,13 @@ I was one of these people who spent a lot of hours playing Conversational Advent
 
 ## How to achieve that
 
-I am a normal person, husband, father, grandfather and technology enthusiast. I know  I don't have much free time to develop but I will try to push new features every week.
+I am a husband, father, grandfather and technology enthusiast. Sadly, I don't have much free time to develop but I will try to push new features every week.
 
 As you might have deduced, not all of the features listed below will be available immediately, but I will make every effort to implement them over time. 
 
-The plan is to use PHP as the base language for the backend project, and ReactJS for the user interface project. It is probably to use some well-known framework like Laravel or NextJs respectively. The persisting layer will be in charge of the SQLite database to make the project as compact as possible and to reduce the fingerprint in whatever system you want to run it, and finally, the whole system will be deployed as a dockerized version, to make possible the premise of "download-and-play" and to make it easy to deploy to, almost, every operative system in the world.
+Initially, the plan was to use PHP as the base language for the backend project and ReactJS for the user interface. But after thinking about it, I decided to restart the project using Rust. That way, I kill two birds with one stone, and I learn Rust and give a faster and safely tool to the Community. 
+
+Anyway the plan is that the result can be used in the main OS (Windows, Mac and Linux) and in a web browser and be able to generate, at least, the scripts to be compiled as an adventure for the different 8-bit platforms.
 
 Sometimes to achieve some features I will base on public libraries, and sometimes in other languages but always with the main goal in mind, provide a good and easy to use product.
 
